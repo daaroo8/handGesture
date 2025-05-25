@@ -18,13 +18,13 @@ pip install opencv-python mediapipe pygame numpy
 
 ```
 📁 handGesture/
-│
-├── main.py                # Código principal de reconocimiento de gestos
-├── imgs/                  # Carpeta que contiene las imágenes PNG de cada gesto
-│   ├── okey.png
-│   ├── peace.png
-│   ├── rock.png
-│   └── ... (otros gestos)
+└src
+ ├─ main.py                # Código principal de reconocimiento de gestos
+ ├─ imgs/                  # Carpeta que contiene las imágenes PNG de cada gesto
+ │   ├── okey.png
+ │   ├── peace.png
+ │   ├── rock.png
+ │   └── ... (otros gestos)
 ```
 
 ## 🧠 Gestos Reconocidos
