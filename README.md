@@ -19,12 +19,13 @@ pip install opencv-python mediapipe pygame numpy
 ```
 📁 handGesture/
 └src
+ └- readme.md
  ├─ main.py                # Código principal de reconocimiento de gestos
- ├─ imgs/                  # Carpeta que contiene las imágenes PNG de cada gesto
- │   ├── okey.png
- │   ├── peace.png
- │   ├── rock.png
- │   └── ... (otros gestos)
+ └─ imgs/                  # Carpeta que contiene las imágenes PNG de cada gesto
+     ├── okey.png
+     ├── peace.png
+     ├── rock.png
+     └── ... (otros gestos)
 ```
 
 ## 🧠 Gestos Reconocidos
@@ -54,8 +55,7 @@ El proyecto puede detectar y mostrar imágenes para los siguientes gestos:
 
 ## ▶️ Cómo Ejecutar
 
-1. Coloca las imágenes de cada gesto (con fondo transparente preferiblemente) en la carpeta `imgs` y nómbralas exactamente como los nombres indicados arriba (`okey.png`, `rock.png`, etc.).
-2. Ejecuta el script:
+1. Ejecuta el script:
 
 ```bash
 python main.py
